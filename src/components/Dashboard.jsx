@@ -63,7 +63,7 @@ function Dashboard({ toggleMobileSidebar, showMobileSidebar }) {
     <div className="flex-1 overflow-y-scroll flex flex-col pb-[4rem] ">
       {/* Header */}
       <div className="px-[3.4rem] xl:px-[6.4rem] pt-[4rem] pb-[2.4rem] ">
-        <div className="flex justify-between sm:block">
+        <div className="flex justify-between items-start  sm:block">
           <div className="flex flex-col lg:flex-row items-start lg:justify-between gap-[2rem]  ">
             <div className="">
               <h1 className="font-semibold text-[2.8rem] lg:text-[3.8rem] leading-[4.6rem] ">
@@ -80,7 +80,7 @@ function Dashboard({ toggleMobileSidebar, showMobileSidebar }) {
 
           {/* hamburger */}
           <span
-            className="sm:hidden text-[2.5rem] cursor-pointer  "
+            className="sm:hidden text-[2.5rem] cursor-pointer "
             onClick={toggleMobileSidebar}
           >
             {showMobileSidebar ? <AiOutlineClose /> : <AiOutlineAlignLeft />}

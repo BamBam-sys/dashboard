@@ -23,7 +23,7 @@ function Navbar({ showMobileSidebar, toggleMobileSidebar }) {
 
   return (
     <div
-      className={`w-[45%] shadow-sm absolute bg-[#1D1042] text-[#fff] px-[2rem] sm:px-[3.2rem] pt-[3.8rem] flex flex-col sm:hidden  transform  ${panelStyles} z-10 h-[100vh] transition-all pb-[1rem]`}
+      className={`w-[60%] shadow-sm absolute bg-[#1D1042] text-[#fff] px-[2rem] sm:px-[3.2rem] pt-[3.8rem] flex flex-col sm:hidden  transform  ${panelStyles} z-10 h-[100vh] transition-all pb-[1rem]`}
     >
       {/*  */}
       <div className="flex-1">

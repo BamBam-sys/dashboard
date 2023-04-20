@@ -136,7 +136,7 @@ function Dashboard({ toggleMobileSidebar, showMobileSidebar }) {
       </div>
 
       {/*  */}
-      <main className="flex-1 bg-[#FCFBFC] px-[3.4rem] xl:px-[6.4rem] pt-[6.4rem] grid grid-cols-[repeat(auto-fit,minmax(32rem,35.3rem))] gap-[4rem] ">
+      <main className="flex-1 bg-[#FCFBFC] px-[3.4rem] xl:px-[6.4rem] pt-[6.4rem] grid grid-cols-[repeat(auto-fit,minmax(32rem,35.3rem))] gap-[4rem] justify-center ">
         {columns.map(({ title, cards }) => (
           <Column cards={cards} title={title} key={title} />
         ))}
